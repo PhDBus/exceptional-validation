@@ -1,0 +1,33 @@
+{
+    "name": "phdbus/exceptional-validation",
+    "description": "Map exceptions to symfony validator format",
+    "type": "library",
+    "require": {
+        "php": ">=8.0.2",
+        "symfony/messenger": "^6.0",
+        "symfony/translation-contracts": "^3.0",
+        "symfony/validator": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "symfony/var-dumper": "^6.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhDBus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhDBus\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yevhen Sidelnyk",
+            "email": "zsidelnik@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
